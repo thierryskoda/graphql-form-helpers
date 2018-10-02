@@ -1,6 +1,6 @@
 {
   "name": "@volst/graphql-form-helpers",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "description": "Makes it easy to work with nested data in forms with GraphQL.",
   "author": "kees@volst.nl",
   "repository": "Volst/graphql-form-helpers",
@@ -24,8 +24,8 @@
     "lint": "tslint -p .",
     "prepublishOnly": "npm run -s build",
     "precommit": "pretty-quick --staged",
-    "test": "jest --watch",
-    "test-coverage": "jest --coverage",
+    "test": "node_modules/.bin/jest --watch",
+    "test-coverage": "node_modules/.bin/jest --coverage",
     "ci": "npm run -s lint && npm run -s build && npm run -s size && npm run -s test-coverage && codecov",
     "size": "size-limit"
   },
