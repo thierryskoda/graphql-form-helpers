@@ -1,5 +1,5 @@
 {
-  "name": "@volst/graphql-form-helpers",
+  "name": "@thierryskoda/graphql-form-helpers",
   "version": "0.2.6",
   "description": "Makes it easy to work with nested data in forms with GraphQL.",
   "author": "kees@volst.nl",
